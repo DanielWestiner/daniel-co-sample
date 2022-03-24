@@ -11300,6 +11300,15 @@ textarea.form-control-lg {
   position: relative;
   padding-top: 1rem;
 }
+.services .row-1 {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 575.98px) {
+  .services .row-1 {
+    flex-direction: column-reverse;
+  }
+}
 .services__content {
   padding: 1rem;
   margin-top: 0rem;
