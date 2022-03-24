@@ -11475,8 +11475,14 @@ textarea.form-control-lg {
   position: relative;
 }
 .contact-box__icon {
-  width: 4rem;
+  width: 2rem;
   stroke: #fff;
+  padding-top: 0.5rem;
+}
+@media (min-width: 576px) {
+  .contact-box__icon {
+    width: 4rem;
+  }
 }
 .contact-box__info {
   padding: 0.4rem;
@@ -11485,12 +11491,35 @@ textarea.form-control-lg {
 .contact-box__info--title {
   color: #fff;
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1rem;
+}
+@media (min-width: 576px) {
+  .contact-box__info--title {
+    font-size: 1.4rem;
+  }
 }
 .contact-box__info--subtitle {
   color: #adb5bd;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.875rem;
+}
+@media (min-width: 576px) {
+  .contact-box__info--subtitle {
+    font-size: 1rem;
+  }
+}
+
+.footer-sm a {
+  color: #fff;
+}
+.footer-sm a i {
+  font-size: 1.25rem;
+  margin-left: 1rem;
+}
+@media (min-width: 576px) {
+  .footer-sm a i {
+    font-size: 1.675rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
