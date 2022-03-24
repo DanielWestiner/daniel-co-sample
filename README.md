@@ -27,7 +27,7 @@ The navigation can be used to browse different sections and may be updated in th
 
 MIT License
 
-Copyright (c) [2021] [Daniel Westiner]
+Copyright (c) [2022] [Daniel Westiner]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
