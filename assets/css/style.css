@@ -11298,7 +11298,7 @@ textarea.form-control-lg {
 
 .services {
   position: relative;
-  padding: 1rem 0;
+  padding-top: 1rem;
 }
 .services__content {
   padding: 1rem;
@@ -11537,6 +11537,18 @@ textarea.form-control-lg {
 }
 .company-list li a:hover {
   color: #9a28f0;
+}
+
+.footer-bottom {
+  background-color: #4a3f4b;
+}
+.footer-bottom__copyright {
+  color: #adb5bd;
+  font-weight: 400;
+}
+.footer-bottom__copyright a {
+  color: #dee2e6;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

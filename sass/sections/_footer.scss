@@ -84,3 +84,18 @@
         }
     }
 }
+
+// Copyright Styling within Footer
+.footer-bottom {
+    background-color: $footer;
+
+    &__copyright {
+        color: $gray-500;
+        font-weight: 400;
+
+        a {
+            color: $gray-300;
+            text-decoration: none;
+        }
+    }
+}
