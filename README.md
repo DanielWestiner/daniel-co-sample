@@ -4,6 +4,9 @@
 
 In this project, I wanted to create and showcase a sample webpage that utilizes Sass customization in combination with Bootstrap to achieve a fully responsize and functional front-end design. I focused on basic functionality and what an example company would look for in a webpage that had mobile-responsiveness and front-end design for their needs.
 
+
+
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
