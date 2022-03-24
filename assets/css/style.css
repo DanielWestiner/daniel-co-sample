@@ -11392,6 +11392,10 @@ textarea.form-control-lg {
   text-transform: capitalize;
 }
 
+.show {
+  display: block;
+}
+
 .portfolio-box {
   position: relative;
   width: 100%;
