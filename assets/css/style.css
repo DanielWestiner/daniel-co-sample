@@ -11468,7 +11468,29 @@ textarea.form-control-lg {
 
 .footer {
   padding-top: 1rem;
-  background-color: #151414;
+  background-color: #4a3f4b;
+}
+
+.contact-box {
+  position: relative;
+}
+.contact-box__icon {
+  width: 4rem;
+  stroke: #fff;
+}
+.contact-box__info {
+  padding: 0.4rem;
+  font-weight: 500;
+}
+.contact-box__info--title {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+.contact-box__info--subtitle {
+  color: #adb5bd;
+  text-decoration: none;
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
