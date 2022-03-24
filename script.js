@@ -1,28 +1,19 @@
 // Setting up on Click Filters for Portfolio Buttons 
 
-$(document).ready(function(){
-
-    $(".filter-button").click(function(){
+$(document).ready(function () {
+    $(".filter-button").click(function () {
         var value = $(this).attr('data-filter');
-        
-        if(value == "all")
-        {
+        if (value == "all") {
             //$('.filter').removeClass('hidden');
             $('.filter').show('1000');
         }
-        else
-        {
-//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
-            $(".filter").not('.'+value).hide('3000');
-            $('.filter').filter('.'+value).show('3000');
-            
+        else {
+            $(".filter").not('.' + value).hide('3000');
+            $('.filter').filter('.' + value).show('3000');
         }
     });
-    
     if ($(".filter-button").removeClass("active")) {
-$(this).removeClass("active");
-}
-$(this).addClass("active");
-
+        $(this).removeClass("active");
+    }
+    $(this).addClass("active");
 });
